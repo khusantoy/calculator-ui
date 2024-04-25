@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+## Preview
+![light mode](preview/calculator_light.jpg?raw=true)
+![dark mode](preview/calculator_dark?raw=true)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
