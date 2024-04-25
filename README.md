@@ -3,8 +3,8 @@
 A new Flutter project.
 
 ## Preview
-![light mode](preview/calculator_light.jpg?raw=true)
-![dark mode](preview/calculator_dark?raw=true)
+![light mode](preview/calculator_light.jpg)
+![dark mode](preview/calculator_dark.jpg)
 
 ## Getting Started
 
