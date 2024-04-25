@@ -10,16 +10,23 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.grey[850],
         appBar: AppBar(
-          title: const Text(" Calculator"),
-          backgroundColor: Colors.white,
+          title: const Text(
+            " Calculator",
+            style: TextStyle(color: Colors.white),
+          ),
+          backgroundColor: Colors.black87,
           actions: [
-            const Icon(Icons.light_mode),
+            const Icon(
+              Icons.light_mode,
+              color: Colors.white,
+            ),
             Switch(
-              value: false,
+              value: true,
               onChanged: (value) {},
             ),
-            const Icon(Icons.dark_mode),
+            const Icon(Icons.dark_mode, color: Colors.white),
             const SizedBox(
               width: 20,
             )
@@ -91,11 +98,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "SIN",
-                        style: TextStyle(color: Colors.black, fontSize: 16),
+                        style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
                     ),
                   ),
@@ -106,11 +113,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "COS",
-                        style: TextStyle(color: Colors.black, fontSize: 16),
+                        style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
                     ),
                   ),
@@ -121,11 +128,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "TAN",
-                        style: TextStyle(color: Colors.black, fontSize: 16),
+                        style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
                     ),
                   ),
@@ -136,11 +143,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "LOG",
-                        style: TextStyle(color: Colors.black, fontSize: 16),
+                        style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
                     ),
                   ),
@@ -158,11 +165,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "(",
-                        style: TextStyle(color: Colors.black, fontSize: 20),
+                        style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
                     ),
                   ),
@@ -173,11 +180,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         ")",
-                        style: TextStyle(color: Colors.black, fontSize: 20),
+                        style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
                     ),
                   ),
@@ -188,11 +195,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "√",
-                        style: TextStyle(color: Colors.black, fontSize: 20),
+                        style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
                     ),
                   ),
@@ -203,11 +210,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "%",
-                        style: TextStyle(color: Colors.black, fontSize: 20),
+                        style: TextStyle(color: Colors.white, fontSize: 20),
                       ),
                     ),
                   ),
@@ -270,11 +277,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "X",
-                        style: TextStyle(color: Colors.black, fontSize: 30),
+                        style: TextStyle(color: Colors.white, fontSize: 30),
                       ),
                     ),
                   ),
@@ -337,11 +344,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "÷",
-                        style: TextStyle(color: Colors.black, fontSize: 30),
+                        style: TextStyle(color: Colors.white, fontSize: 30),
                       ),
                     ),
                   ),
@@ -404,11 +411,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "-",
-                        style: TextStyle(color: Colors.black, fontSize: 30),
+                        style: TextStyle(color: Colors.white, fontSize: 30),
                       ),
                     ),
                   ),
@@ -471,11 +478,11 @@ class MyApp extends StatelessWidget {
                     height: 45,
                     width: 70,
                     child: FloatingActionButton(
-                      backgroundColor: Colors.grey[300],
+                      backgroundColor: Colors.grey[700],
                       onPressed: () {},
                       child: const Text(
                         "+",
-                        style: TextStyle(color: Colors.black, fontSize: 30),
+                        style: TextStyle(color: Colors.white, fontSize: 30),
                       ),
                     ),
                   ),
