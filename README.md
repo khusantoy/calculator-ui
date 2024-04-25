@@ -3,8 +3,8 @@
 A new Flutter project.
 
 ## Preview
-<img src="preview/calculator_light.jpg" alt="Light Mode" width="500" height="200">
-<img src="preview/calculator_dark.jpg" alt="Dark Mode" width="500" height="200">
+<img src="preview/calculator_light.jpg" alt="Light Mode" width="300" height="500">
+<img src="preview/calculator_dark.jpg" alt="Dark Mode" width="300" height="500">
 
 ## Getting Started
 
